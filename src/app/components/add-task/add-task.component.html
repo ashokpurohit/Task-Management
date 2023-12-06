@@ -1,0 +1,44 @@
+<form #taskForm="ngForm">
+    <h1 mat-dialog-title>Add Task</h1>
+    <div mat-dialog-content>
+        <div class="row">
+            <mat-form-field class="w-100">
+                <mat-label>Subject</mat-label>
+                <input matInput name="subject" [(ngModel)]="task.subject" required>
+            </mat-form-field>
+            <mat-form-field class="w-50 pr-1">
+                <mat-label>Status</mat-label>
+                <select matNativeControl required [(ngModel)]="task.status" name="status">
+                    <option *ngFor="let status of statusOption" [ngValue]="status.id">{{status.name}}</option>
+                </select>
+            </mat-form-field>
+            <mat-form-field class="w-50">
+                <mat-label>Priority</mat-label>
+                <select matNativeControl required [(ngModel)]="task.priority" name="priority">
+                    <option *ngFor="let priority of priorityOption" [ngValue]="priority.id">{{priority.name}}</option>
+                </select>
+            </mat-form-field>
+            <mat-form-field class="w-50 pr-1">
+                <mat-label>Start date</mat-label>
+                <input name="startDate" matInput [matDatepicker]="startPicker" [(ngModel)]="task.startDate">
+                <mat-datepicker-toggle matIconSuffix [for]="startPicker"></mat-datepicker-toggle>
+                <mat-datepicker #startPicker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field class="w-50">
+                <mat-label>End date</mat-label>
+                <input name="endDate" matInput [matDatepicker]="endPicker" [(ngModel)]="task.endDate">
+                <mat-datepicker-toggle matIconSuffix [for]="endPicker"></mat-datepicker-toggle>
+                <mat-datepicker #endPicker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field class="w-100">
+                <mat-label>Description</mat-label>
+                <textarea name="description" matInput [(ngModel)]="task.description"></textarea>
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="d-flex justify-content-end">
+        <button mat-button (click)="onNoClick()">Cancel</button>
+        <button mat-button color="primary" (click)="submitTask()" cdkFocusInitial
+            [disabled]="taskForm.invalid">Save</button>
+    </div>
+</form>

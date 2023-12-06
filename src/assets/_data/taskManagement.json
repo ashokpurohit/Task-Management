@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "subject": "Complete Project Alpha",
+        "description": "Finish coding and documentation for Project Alpha by implementing new features and fixing bugs.",
+        "status": 1,
+        "priority": 2,
+        "startDate": "2023-12-01T00:00:00.000Z",
+        "endDate": "2023-12-05T00:00:00.000Z",
+        "position": 1
+    },
+    {
+        "id": 2,
+        "subject": "Review Code for Feature Beta",
+        "description": "Conduct a thorough review of the codebase for Feature Beta, checking for bugs and optimizing performance.",
+        "status": 2,
+        "priority": 3,
+        "startDate": "2023-12-03T00:00:00.000Z",
+        "endDate": "2023-12-08T00:00:00.000Z",
+        "position": 2
+    },
+    {
+        "id": 3,
+        "subject": "Prepare Presentation for Client Meeting",
+        "description": "Create slides and practice the presentation for an upcoming client meeting to showcase the latest project updates.",
+        "status": 3,
+        "priority": 1,
+        "startDate": "2023-12-06T00:00:00.000Z",
+        "endDate": "2023-12-10T00:00:00.000Z",
+        "position": 3
+    },
+    {
+        "id": 4,
+        "subject": "Update User Interface for Project Gamma",
+        "description": "Revamp the user interface of Project Gamma to enhance user experience and incorporate modern design principles.",
+        "status": 1,
+        "priority": 2,
+        "startDate": "2023-12-12T00:00:00.000Z",
+        "endDate": "2023-12-18T00:00:00.000Z",
+        "position": 4
+    },
+    {
+        "id": 5,
+        "subject": "Conduct Security Audit for Application Delta",
+        "description": "Perform a comprehensive security audit on Application Delta to identify and address potential vulnerabilities.",
+        "status": 2,
+        "priority": 1,
+        "startDate": "2023-12-15T00:00:00.000Z",
+        "endDate": "2023-12-20T00:00:00.000Z",
+        "position": 5
+    },
+    {
+        "id": 6,
+        "subject": "Collaborate on Feature Epsilon Implementation",
+        "description": "Work closely with the development team to implement Feature Epsilon, incorporating feedback and ensuring seamless integration.",
+        "status": 1,
+        "priority": 3,
+        "startDate": "2023-12-18T00:00:00.000Z",
+        "endDate": "2023-12-24T00:00:00.000Z",
+        "position": 6
+    },
+    {
+        "id": 7,
+        "subject": "Optimize Database Queries for Project Zeta",
+        "description": "Review and optimize database queries in Project Zeta to improve overall system performance and responsiveness.",
+        "status": 3,
+        "priority": 2,
+        "startDate": "2023-12-22T00:00:00.000Z",
+        "endDate": "2023-12-28T00:00:00.000Z",
+        "position": 7
+    },
+    {
+        "id": 8,
+        "subject": "Create Documentation for API Endpoints",
+        "description": "Document the API endpoints of the application, including usage instructions and examples for developers.",
+        "status": 1,
+        "priority": 1,
+        "startDate": "2023-12-25T00:00:00.000Z",
+        "endDate": "2023-12-30T00:00:00.000Z",
+        "position": 8
+    },
+    {
+        "id": 9,
+        "subject": "Conduct Training Session on New Framework",
+        "description": "Organize a training session for the development team to familiarize them with a new framework being introduced to the project.",
+        "status": 2,
+        "priority": 3,
+        "startDate": "2023-12-28T00:00:00.000Z",
+        "endDate": "2024-01-02T00:00:00.000Z",
+        "position": 9
+    }    
+]
